@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Tushar Mahajan</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile_photo.png" alt="Tushar Mahajan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Om Kharche">Tushar Mahajan</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tmahajan141@gmail.com" class="contact-link">tmahajan141@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918821844329" class="contact-link">+91 8821844329</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Alternate Phone</p>
+
+              <a href="tel:+919302250712" class="contact-link">+91 9302250712</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhopal, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tushar-mahajan-712328197" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.github.com/thisistusharmahajan" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instag"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Computer Science graduate Working as Software Developer at MP State Electronics Development Corporation (State IT Center), Bhopal.
+            <br>I've hands-on experience in Desktop Application Development, Web Designing and Development, Designing Solutions, Databases, Low Level Programming in C and C++ 
+            and Data Structures and Algorithms.
+            <br>   
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design and Development</h4>
+
+                <p class="service-item-text">
+                  I can make User friendly and intuitive Web Design. Apart from this developing Quality Website architecture
+                  which satisfy client requirements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  I have worked on various Projects on Backend Designing which includes
+                  backend architecture, Web Services and API Development and ensuring seamless
+                  Backend and Frontend Integration.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desktop Application Development</h4>
+
+                <p class="service-item-text">
+                  Worked on Developing Fully Functional Dynamic network enabled as well as static desktop Application
+                  Using Java and Python 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Worked on Building Machine Learning modules and APIs and know about ML Integration
+                  into webapplications and desktop Applications. 
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ujjain Engineering College, Ujjain (7.2 CGPA)</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                B.Tech Graduate from Ujjain Engineering College in Computer Science and Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Higher Secondary School (92.6%)</h4>
+
+              <span>2019-2020</span>
+
+              <p class="timeline-text">
+                Completed Higher Secondary School from Seva Sadan Hr. Sec. Shoool, Burhanpur
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school (96.2%)</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Completed High School from Seva Sadan Hr. Sec. Shoool, Burhanpur
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer, MPSEDC State IT Center</h4>
+
+              <span>Jun 2025 — Present</span>
+              <p class="timeline-text">
+                  • Working on live projects MP Rojgar Portal and MMYSKY(Mukhyamantri Sikho Kamao Yojna) <br>
+                  • Worked on Frontend-side using JQUERY, AngularJS, and Angular 2 Frameworks <br>
+                  • Designed a solution for face-recognition attendance management system by utilizing 
+                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;openCV and Face recognition python libraries which ensured duplicity check 
+                   in the existing &nbsp; &nbsp; &nbsp;&nbsp;database and restricted marking proxy attendance<br>
+                  • Built and tested Web Services and APIS in .NET core                  
+              </p>
+              <p class="timeline-text">
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Intern, HotWax Systems Indore</h4>
+
+              <span>Dec 2024 - Feb 2025</span>
+
+              <p class="timeline-text">
+                  • Learned about OmniChannel Order Management System<BR>
+                  • Created Data Model using Moqui Open-Source Framework<BR>
+                  • Implemented Entities and Services utilizing moqui architecture<BR>
+                  • Implemented and tested Rest-APIs using Moqui
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
+              <p class="timeline-text">C C++ Java Python Javascript C#</p>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+                <!-- <data value="70">70%</data> -->
+              </div>
+              <p class="timeline-text">SpringBoot, Node.js, .NET Core and MVC, PHP, CodeIgniter</p>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5>
+                <!-- <data value="90">90%</data> -->
+              </div>
+               <p class="timeline-text">Javascript, AngularJS, Angular 2, JQuery</p>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div> -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Science</h5>
+                <!-- <data value="50">50%</data> -->
+              </div>
+              <p class="timeline-text">OS DBMS Data-Structures OOPS Networking</p>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div> -->
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+          </ul>
+        <section class="service">
+    <ul class="service-list-project">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">HireLink - A Job Hiring website</h4> 
+                <p class="service-item-text">
+                  <strong>Role</strong>: Backend Developer | <strong>Tech Stack</strong>: Java Spring Boot, React.js, MongoDB, Tailwind CSS, Mantine UI
+                  <br>As a backend developer, I contributed to building HireLink, a full-stack job portal that connects job seekers and employers. I developed secure RESTful APIs using Spring Boot, implemented OTP-based user authentication, and designed logic for application tracking and job status updates. The platform features two panels: one for candidates to apply, filter jobs, and track interviews, and another for employers to post jobs, schedule interviews, and manage applicants. I also implemented centralized exception handling and designed scalable data schemas.
+                </p>
+                <br>
+                <a href="https://github.com/vanshumava17/HireLink" class="social-link-google">
+                      Go to Repository
+                </a>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Employee Management System</h4> 
+                <p class="service-item-text">
+                  <strong>Tech Stack</strong>: Java, AWT, Swing and MySQL <br>
+                  The Employee Manager Module is a Java-based network-enabled desktop application designed to manage student data efficiently. It follows a layered programming approach, implementing proxy layers to separate client and server logic for better modularity and scalability. The application features an intuitive user interface built using Java Swing, enabling smooth interaction and data input. A key highlight of the project is the multi-threaded server developed with Java Network Programming, which allows concurrent handling of multiple client requests, making the system robust and responsive. This project demonstrates a strong understanding of Java, object-oriented design, networking, and multithreading principles 
+                  .The Powerful Itext-pdf document engine is used to generate Employee Reports in PDF form.
+                  <br>
+                </p>
+                <br>
+                <a href="https://github.com/Thisistusharmahajan/student_module/" class="social-link-google">
+                      Go to Repository
+                </a>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">PG-Life (PG Rental Website)</h4> 
+                <p class="service-item-text">
+                  <strong>Tech Stack</strong>: PHP, HTML,CSS, Javascript, React.js, MySQL, Bootstrap
+                  <br>PGLife is a responsive web application built to simplify the process of searching for PG accommodations based on city selection. It features a dynamic and user-friendly interface developed using HTML, CSS, Bootstrap, and JavaScript, with PHP handling backend logic. The platform includes essential functionalities such as user authentication, property listing, favorites management, and city-wise filtering and sorting. MySQL was used as the database to efficiently store and manage user and property data. The application was designed with modularity, secure session handling, and mobile responsiveness in mind, ensuring smooth user experience across all devices. This project reflects my ability to develop full-stack solutions with a strong focus on backend efficiency and user interactivity.
+                </p>
+                <br>
+                <a href="https://github.com/Thisistusharmahajan/PG-LIFE" class="social-link-google">
+                      Go to Repository
+                </a>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AnChat Real-Time Anonymous ChatApp</h4> 
+                <p class="service-item-text">
+                  <strong>Role</strong>: Backend Developer | <strong>Tech Stack</strong>: Next.js, Node.js, Socket.io
+                  <br>The Real-time Anonymous Chat Application is a web-based platform designed to enable private and anonymous communication among users through digital chat rooms. Developed using Next.js, Node.js, MongoDB, and Socket.io, the application provides seamless real-time messaging functionality. Users can join different chat rooms and interact with others while maintaining complete anonymity. The system ensures fast, bi-directional communication through WebSockets, enhancing user experience with instant message delivery. The project emphasizes privacy, user-friendly interface design, and scalability, making it a robust solution for secure, anonymous online conversations. This project showcases proficiency in full-stack development, real-time communication protocols, and privacy-focused application design.
+                </p>
+                <br>
+                <a href="https://github.com/rohan920git/backend-chat-app" class="social-link-google">
+                      Go to Repository
+                </a>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.754493678984!2d77.4377641!3d23.252019300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43258db6ea19%3A0x1ec0c408954a478c!2sParadise%20Heritage%2C%20Govind%20Garden%2C%20Govindpura!5e0!3m2!1sen!2sin!4v1754477060069!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" id="connectToWhatsapp" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
